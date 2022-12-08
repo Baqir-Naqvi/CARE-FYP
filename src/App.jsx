@@ -1,12 +1,16 @@
 import { useState } from 'react'
 import './App.css'
+import HomePage from './pages/HomePage/HomePage'
+import CustomNavbar from './components/Navbar/CustomNavbar'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
-      <h1>CARE TOOL</h1>
+    <div>
+      <CustomNavbar />
+      <HomePage />
+
     </div>
   )
 }

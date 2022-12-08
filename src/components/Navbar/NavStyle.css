@@ -1,0 +1,13 @@
+.NavBar{
+    background-color: #007E94;
+}
+#NavItems{
+    color: #FFFFFF;
+    margin-left: 40px;
+
+}
+.NavBar .logo{
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: medium;
+}
