@@ -5,13 +5,16 @@ import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
 import './NavStyle.css';
 import {Link} from 'react-router-dom';
+import { useNavigate } from "react-router-dom"; 
 
 export default function CustomNavbar() {
+  const navigation = useNavigate();
   const navigateLogin = () => {
-    console.log('login');
+    navigation('/login');
+    
   };
   const navigateSignup = () => {
-    console.log('signup');
+    navigation('/signup');
   };
   return (
     <Navbar collapseOnSelect  expand="lg" className='NavBar' >
