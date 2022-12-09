@@ -4,6 +4,10 @@
 #NavItems{
     color: #FFFFFF;
     margin-left: 40px;
+    text-decoration: none;
+
+    list-style-type: none;
+
 
 }
 .NavBar .logo{

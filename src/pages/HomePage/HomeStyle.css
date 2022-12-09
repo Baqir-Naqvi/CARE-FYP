@@ -19,7 +19,7 @@
   align-items: center;
 }
 .LeftCol {
-  height: 550px;
+  /* height: 550px; */
   justify-content: center;
   text-align: center;
   display: flex;
@@ -27,7 +27,7 @@
   align-items: center;
 }
 .rightcol {
-  height: 550px;
+  height: 530px;
   justify-content: center;
   text-align: center;
   display: flex;
@@ -90,4 +90,72 @@
   text-align: center;
   display: flex;
   align-items: center;
+}
+.groupRow {
+  display: flex;
+  height:500px;
+}
+.groupRow .rightgroupcol {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.groupRow .rightgroupcol h3{
+   font-size: 40px;
+  color: rgba(0, 0, 0, 0.34);
+  font-weight: 700;
+
+}
+.groupRow .rightgroupcol .grouptext{
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  height: 100%;
+  align-items: center;
+
+}
+.groupRow .lefgrouptcol {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.groupimage {
+  width: 100%;
+  justify-content: right;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.timeImage {
+ width: 80%;
+ height: 100%;
+
+}
+.TimeSection{
+  background-color: #007e94;
+  text-align: center;
+  display: flex;
+}
+.TimeSection .Timeleft h3{
+  font-size: 40px;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 700;
+  margin-Top: 40px;
+
+}
+.TimeSection .Timeleft{
+  height: 'max-content';
+}
+.TimeSection .Timeleft .timetext{
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  color:#FFFFFF;
+  font-size: 20px;
+  height:'max-content'
+
 }
