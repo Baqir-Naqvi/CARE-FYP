@@ -10,11 +10,11 @@ import { useNavigate } from "react-router-dom";
 export default function CustomNavbar() {
   const navigation = useNavigate();
   const navigateLogin = () => {
-    navigation('/login');
+    navigation('/login/true');
     
   };
   const navigateSignup = () => {
-    navigation('/signup');
+    navigation('/login/register');
   };
   return (
     <Navbar collapseOnSelect  expand="lg" className='NavBar' >

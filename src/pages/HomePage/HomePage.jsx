@@ -8,8 +8,15 @@ import Button from 'react-bootstrap/Button'
 import HeroImage from '../../assets/HeroImage.png'
 import GroupImage from '../../assets/group2.png'
 import TimeImage from '../../assets/TimeImage.png'
+import { useEffect } from 'react'
+import {useGlobalContext} from '../../utils/ContextProvider'
+
 
 export default function HomePage() {
+  const {setState} = useGlobalContext()
+  useEffect(() => {
+    setState(true)
+  }, [])
   return (
     <Container fluid>
       <Row>

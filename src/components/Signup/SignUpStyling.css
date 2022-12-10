@@ -1,39 +1,5 @@
-.mainbody{
-    background-color:rgba(233, 234, 239, 0.5);
-    height: 100vh
-}
-
-.mainbody .leftImageSection{
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background-color: #007E94;
-    padding: 6.4rem 0;
-    height: 100vh;
-
-}
-.leftImageSection h3{
-    color: #fff;
-    font-size: 2rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
-}
-.leftImageSection p{
-    color: #fff;
-    font-size: 1.2rem;
-    font-weight: 400;
-    margin-bottom: 1rem;
-}
-.loginForm{
-    padding-top: 6rem;
-}
-.loginForm .heading{
-    color: #5F5F5F;
-    font-size: 1rem;
-    font-weight: 600;
-    margin-vertical: 1rem;
+.Rightlogin .signupForm{
+    
 }
 .Rightlogin{
     /* text-align: center; */
@@ -75,7 +41,3 @@
     font-weight: 600;
     text-decoration: none;
 }   
-//on hover change cursor to pointer
-.Rightlogin .signuptext a:hover{
-    cursor: pointer;
-}
